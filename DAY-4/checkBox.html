@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkbox</title>
+</head>
+<body>
+    <form action="/server">
+        <div>
+            <label for="userName">Enter UserName</label>
+            <input type="text" placeholder="Enter userName" id="userName" name="Username"/>
+        </div>
+        <div>
+            <label for="PassWord">Enter passWord</label>
+            <input type="password" placeholder="Enter PassWord" id="PassWord" name="password"/>
+        </div>
+        <div>
+    <!-- checkbox is used for select multiple choise -->
+            <label for="Age">I'm 18+</label>
+            <input type="checkbox" id="Age" placeholder="age" name="age"/>
+        </div>
+        <hr>
+        <div>
+            Multiple checkboxes
+            <br>
+            <label for="Maths">Maths</label>
+            <input type="checkbox" id="Maths" name="sub" value="maths"/>
+            <label for="Science">Science</label>
+            <input type="checkbox" id="Science" name="sub" value="sci"/>
+            <label for="Computer">Computer</label>
+            <input type="checkbox" id="Computer" name="sub" value="comp"/>
+        </div>
+        <div>
+            <button type="submit">Submit Here</button>
+            <button type="reset">Reset Here</button>
+        </div>
+    </form>
+</body>
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RadioButton</title>
+</head>
+<body>
+    <form action="/server">
+        <div>
+            <label for="userName">Enter userName</label>
+            <input type="text" placeholder="Enter username" id="userName" name="user"/>
+        </div>
+        <div>
+            <label for="passWord">Enter Password</label>
+            <input type="password" placeholder="Enter passwrod" id="passWord" name="pass"/>
+        </div>
+        <div>
+            <label for="Age">I'm 18+</label>
+            <input type="checkbox" placeholder="age" id="Age"/>
+        </div>
+        <div>
+            <label for="apple">Apple</label>
+            <input type="radio" id="apple" name="fruit" value="apple"/>
+            <label for="papaya">Papaya</label>
+            <input type="radio" id="papaya" name="fruit" value="papaya"/>
+            <label for="pomegranate">Pomegranate</label>
+            <input type="radio" id="pomegranate" name="fruit" value="pomegranate"/>
+        </div>
+        <div>
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+        </div>
+    </form>
+</body>
+</html>
