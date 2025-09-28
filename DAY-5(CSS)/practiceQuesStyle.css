@@ -1,0 +1,26 @@
+h2{
+    color:orange;
+    text-decoration:red line-through;
+}
+button{
+    color:white; 
+    background-color:blue;
+}
+p{
+    background-color:black;
+    color:white;
+}
+h3{
+    background-color:#000000;
+    color:#ffffff;
+    font: weight 500px;
+    text-decoration:pink underline;
+}
+h1{
+    text-decoration:overline;
+}
+h5{
+    background-color:black;
+    color:white;
+    font-weight:normal;
+}

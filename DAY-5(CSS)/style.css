@@ -1,0 +1,16 @@
+h1{
+    color:red;
+    background-color:yellow;
+}
+h2{
+    color:rgb(249, 108, 131);
+    background-color:black;
+}
+p{
+    color:green;
+    background-color:rgb(79, 29, 29);
+}
+button {
+    color:skyblue;
+    background-color:black;
+}
