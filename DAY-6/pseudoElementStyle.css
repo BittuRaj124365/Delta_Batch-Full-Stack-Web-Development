@@ -1,0 +1,10 @@
+h2::first-letter{
+    color:rgb(255, 7, 7);
+}
+p::first-line{
+    color:rgb(47, 255, 0);
+}
+p::selection{
+    background-color:rgb(195, 255, 0);
+    color:red;
+}

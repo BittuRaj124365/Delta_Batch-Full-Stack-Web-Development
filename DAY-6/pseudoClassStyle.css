@@ -1,0 +1,30 @@
+button:hover{
+    background-color: red;
+    color:green;
+}
+#submit:hover{
+    background-color:rgb(0, 0, 0);
+    color:rgb(255, 255, 255)
+}
+#submit:active{
+    background-color:rgb(255, 0, 0);
+}
+#reset:hover{
+    color:yellow;
+    background-color:black;
+}
+#reset:active{
+    background-color:green
+}
+h2:hover{
+    color:rgb(255, 94, 0);
+    text-decoration:none;
+}
+p:active{
+    font-weight:bold;
+    color:brown;
+}
+input[type="radio"]:checked+label{
+    color:rgb(13, 255, 0);
+    font-weight:bold;
+}

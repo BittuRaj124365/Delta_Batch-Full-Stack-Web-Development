@@ -1,0 +1,16 @@
+h2{
+    background-color: yellow;
+    /* display:inline; */
+}
+h1{
+    background: pink;
+    display:inline;
+}
+#span1{
+    display:inline;
+    background-color:red;
+}
+#span2{
+    background: greenyellow;
+    display:inline;
+}
