@@ -1,0 +1,131 @@
+#upper{
+    height:100px;
+    width:100px;
+    margin:10px;
+    margin-left:250px;
+    background-color:red;
+    transition:0.5s;
+}
+#upper:hover{
+    height:100px;
+    width:100px; 
+    border-radius:50px;
+    background-color: yellow;
+    transform:scale(3);
+    box-shadow:3px 2px 5px red;
+}
+#lower{
+    height:100px;
+    width:100px;
+    margin:10px;
+    margin-bottom:40px;
+    background-color:yellow;
+    transition:0.5s;
+    /* transition: margin-top 2s ease-in-out 0.3s; */
+}
+#lower:hover{
+    border-radius:50px;
+    background: red;
+    transform:scale(3);
+    box-shadow:3px 2px 5px yellow;
+}
+#down{
+    height:100px;
+    width:100px;
+    margin:0 auto;
+    background-color: blue;
+}
+#down:hover{
+    transform:rotate(45deg);
+    background-color:purple;
+    box-shadow:3px 2px 5px purple;
+}
+#lowest{
+    height:100px;
+    width:100px;
+    background-color:rgb(0, 255, 13);
+    margin:10px;
+    transition:margin-top 2s ease-in 0.2s;
+
+}
+#lowest:hover{
+    /* border-radius:50px; */
+    margin-top:400px;
+    background: pink;
+    transform:rotate(45deg);
+    transform:scale(2);
+    transform:skew(34deg);
+    box-shadow:3px 2px 5px blue;
+}
+#box{
+    height:100px;
+    width:100px;
+    margin-top:10px;
+    background-color: green;
+}
+#box:hover{
+    box-shadow:2px 4px 10px green;
+}
+
+ /* card-hover */
+.card{
+    width:200px;
+    height:200px;
+    border-radius:15px solid rgb(19, 13, 13);
+    margin:10px;
+    box-shadow:2px 4px grey;
+    display:inline-block;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+h3{
+    margin-left:60px;
+}
+p{
+    margin-left:60px;
+}
+.card:hover{
+    box-shadow:9px 7px 5px rgb(123, 114, 114);
+    transition-duration:0.7s;
+    border-radius:50px;
+}
+.description{
+    padding:0 2px 0 2px;
+}
+img{
+    width:100%;
+    border-radius:10px 10px 0 0;
+}
+img:hover{
+    border-radius:50px;
+    transition-duration:0.7s;
+    box-shadow: 9px 7px 12px grey; 
+    transition-duration: 2s ease-in 0.5s;  
+}
+#smile{
+    background-color: yellow;
+    height:100px;
+    width:100px;
+    border-radius:50%;
+    margin-left:300px;
+    margin-bottom:100px;
+}
+#mouth{
+    width:65px;
+    height:25px;
+    background-color: brown;
+    margin-left:18px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius:15px;
+    margin-top:33px;
+}
+.eyes{
+    height:25px;
+    width:25px;
+    background-color: red;
+    border-radius:50%;
+}
+.leftEye, .rightEye{
+    margin-left:15px;
+    margin-top:25px;
+}
