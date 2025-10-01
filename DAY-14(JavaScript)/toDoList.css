@@ -1,0 +1,33 @@
+body{
+    margin:0px;
+    padding:0px;
+    text-align: center;
+    background-color: yellow;
+}
+h1{
+    color:rgb(255, 0, 0);
+}
+input{
+    background-color:rgb(43, 225, 37);
+    border-radius: 15px;
+    margin-left:1rem;
+    height:30px;
+    
+    
+}
+input::placeholder{
+    color:rgb(0, 0, 0);
+    font-size:large;
+}
+button{
+    margin-left:1rem;
+    border:2px solid blue;
+    border-radius: 15px;
+    transition: all 0.7s;
+    height:30px;
+}
+li{
+    list-style-type:none;
+    color:red;
+    font-size: x-large;
+}
