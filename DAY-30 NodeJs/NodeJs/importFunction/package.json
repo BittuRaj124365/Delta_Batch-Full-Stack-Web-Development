@@ -1,0 +1,15 @@
+{
+  "name": "importfunction",
+  "version": "1.0.0",
+  "description": "jsonPackage for import function",
+  "main": "math.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Bittu Raj",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "random-words": "^2.0.1"
+  }
+}
