@@ -1,0 +1,21 @@
+#div1{
+    height:150px;
+    width:300px;
+    background-color: grey;
+    margin-top:20px;
+    margin-bottom:40px;
+    margin-left:2em;
+    padding:1em
+}
+div{
+    height:100px;
+    width:100px;
+    background-color: yellow;
+    border:2px solid black;
+    border-radius:50%;
+    display:inline-block;
+}
+li{
+    background-color: rgb(145, 255, 0);
+    display:inline;
+}

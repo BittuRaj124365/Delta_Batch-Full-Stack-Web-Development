@@ -1,0 +1,28 @@
+h1,h2{
+    text-align:center;
+    font-family:league spartan;
+    color:#ffa511;
+    font-size:55px;
+    font-weight:900;
+    letter-spacing:10px;
+    line-height:1.5;
+    text-decoration:teal double underline;
+    text-transform:uppercase;
+}
+#myID{
+    color:rgb(131, 224, 0);
+    background-color: red; 
+}
+.a1{
+    color:blue;
+    background-color:violet;
+}
+h6{    
+    color:red;
+}
+ .myClass{
+    color:blue;
+}
+#greet{
+    color:yellow;
+} 
