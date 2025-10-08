@@ -1,0 +1,25 @@
+h1{
+    color:maroon;
+}
+.post{
+    border:2px solid blue;
+    margin:2px;
+    border-radius:8px;
+    display: inline-block;
+    /* flex-wrap: wrap; */
+}
+/* .contentDiv{
+    border:2px solid orange;
+    margin:2px;
+    border-radius: 8px;
+} */
+.username{
+    color:green;
+}
+.content{
+    color:rgb(241, 7, 46);
+    text-align: center;
+}
+.profession{
+    color:violet;
+}
