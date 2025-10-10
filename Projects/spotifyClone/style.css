@@ -1,0 +1,249 @@
+*{
+    font-family:'Montserrat', sans-serif;
+    margin:0;
+    background-color: #121212;
+    color:white;
+    overflow:hidden; /*  it stops scrolling the page */
+}
+.main{
+    display:flex;
+    height:100vh;
+    padding:0.1rem;
+}
+.sidebar{
+    background-color:#000;
+    width:340px;
+    border-radius: 1rem;
+    margin-right:0.5rem;
+}
+.mainContent{
+    background-color:#121212;
+    flex:1;
+    border-radius:1rem; /* 1rem equals to 16px */
+    overflow:auto;
+    padding:0 1.5rem 0 1.5rem;  
+}
+.musicPlayer{
+    background-color:#121212;
+    width:100%;
+    height:65px;
+    bottom:0px;
+    position:fixed;  /* it will fix the div */
+}
+a{
+    text-decoration:none;
+    color:white;
+}
+.nav{
+    background-color:#121212;
+    border-radius:1rem;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    height:100px;
+    padding:0.5rem 0.75rem;
+}
+.navOne{
+    line-height:2.5rem;
+    opacity:1;
+}
+#navTwo{
+    line-height:2.5rem;
+    opacity:0.6;
+}
+#navTwo:hover{
+    opacity:1;
+}
+/* .navOption i{
+    font-size:1.25rem;
+    margin-left:1rem;
+} */
+.navOption a{
+    font-size:1 rem;
+    margin-left:1rem;
+    margin-bottom:0.3rem;
+}
+.library{
+    background-color:#121212;
+    border-radius:1rem;
+    size:12px;
+    margin-top:0.5rem;
+    height:100%;
+}
+/* .library:hover{
+    opacity:1;
+} */
+.libraryOption img{
+    margin-left:10px;
+    height:1.30rem;
+    width:1.30rem;
+}
+.option{
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+}
+.icons{
+    font-size:1.2rem;
+    display:flex;
+}
+.icons i{
+    opacity:0.7;
+    margin-right:1rem;
+}
+.icons i:hover{
+    opacity:1;
+}
+.box{
+    height:8rem;
+    background-color:#232323;
+    border-radius:0.75rem;
+    margin:0.75rem 0 1.75rem 0;
+    padding:0.75rem 1rem; 
+}
+.boxPara1{
+    font-size:1rem;
+    font-weight:500;
+}
+.boxPara2{
+    font-size: 0.85rem;
+    opacity:0.9;
+}
+.badge{
+    color:black;
+    background-color: white;
+    border:none;
+    border-radius: 100px;
+    padding:0.25rem 1rem;
+    font-weight: 700;
+    margin-top:0.5rem;
+    height:2rem;
+    width:fit-content;
+}
+.darkBadge{
+    background-color:black;
+    color:white;
+}
+p{
+    background-color:#232323;
+    margin:15px;
+}
+.stickyNav{
+    position:sticky;
+    top:0;
+    background-color:#121212;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:1rem 0 1rem 0; 
+    z-index:10;
+}
+.stickyNavIcons{
+    margin-left:0.75rem;
+}
+.stickyNavIcons img {
+    height:15px;
+    width:15px;
+}
+.stickyNavOption{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.navItems{
+    margin-right:1rem;
+}
+@media(max-width:900px){
+    .hide{
+        display:none;
+    }
+}
+.card{
+    background-color:#232323;
+    width:150px;
+    border-radius:0.5rem;
+    padding:1rem;
+    margin:0.5rem;
+    margin-top:1rem;
+}
+.cardsContainer{
+    display:flex;
+    flex-wrap:wrap;
+}
+.cardImage{
+    width:100%;
+    border-radius:0.5rem;
+}
+.cardTitle{
+    font-weight:600;
+}
+.cardInfo{
+    font-weight:0.75rem;
+    font-size:smaller;
+    opacity:0.7;
+}
+.footer{
+    height:300px;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+}
+.line{
+    width:90%;
+    height:50%;
+    border-top:1px solid white;
+    opacity:0.4;
+}
+.musicPlayer{
+    display:flex;
+    justify-content: space-between;
+    align-items:center; 
+}
+.album{
+    width:25%;
+    background-color: rgb(13, 13, 220);
+}
+.player{
+    width:50%;
+}
+.controls{
+    width:25%;
+    background-color: rgb(11, 192, 41);
+}
+.playerControlIcon{
+    height:1rem;
+    margin-right:1.75rem;
+    opacity:0.7;
+}
+.playerControlIcon:hover{
+    opacity:1; 
+}
+.playerControl{
+    display:flex;
+    justify-content:center;
+    align-items:center; 
+}
+.playbackBar{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+}
+.progressPlayer{
+    width:70%;
+    appearance:none;
+    background-color: transparent;
+    cursor:pointer;
+}
+.progressPlayer::-webkit-slider-runnable-track{
+    background-color: white;
+    border-radius:100px;
+    height:0.18rem;
+}
+.progressPlayer::-webkit-slider-thumb{
+    appearance: none;
+    height:1rem;
+    width:1rem;
+    background-color: #1bd760;
+    border-radius:50%;
+    margin-top:-6px;
+}
