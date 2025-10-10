@@ -1,0 +1,241 @@
+body{
+    font-family: 'Medium', 'Arial Narrow', Arial, sans-serif;
+    padding:0px;
+    margin:0px;
+    outline:none;
+    box-sizing: border-box;
+    z-index:1;
+    background-color: brown;
+}
+.pageOne{
+    background:url(Assets/heroImage2.jpg)no-repeat;
+    background-size:cover;
+    margin:0px;
+    padding:0px;
+}
+#quote{
+    text-align:left;
+    margin-left:5px;
+    font-family:cursive;
+    color:white;
+    display:flex;
+}
+.menuButton{
+    margin-left:15rem;
+    justify-content: space-evenly;
+    /* text-align:center; */
+}
+
+#xyz{
+    text-decoration: none;
+    font-weight: bold;
+    color:rgb(255, 255, 255);
+    margin:15px;
+    display:row;
+}
+.menuButton a:hover{
+    border-radius: 3px;
+    border:2px solid rgb(255, 38, 0);
+    /* font-weight: 800; */
+}
+.loginButton i:hover{
+    font-size:large;
+}
+.loginButton{
+    text-align:right;
+}
+.loginButton a{
+    margin-right:2rem;
+    margin:0px;
+    padding: 0px;
+}
+.loginButton i{
+    color:white;  
+}
+.middleContentText h3{
+    color:white;
+    font-family: cursive;
+    /* text-align: left; */
+    margin-left: 15vh;
+    margin-top: 5rem;
+    padding: 0px;
+    font-size:xx-large;
+}
+.middleContent{
+    /* justify-items: space-evenly; */
+    display:flex;
+}
+.middleContentText a{
+    /* text-decoration: white; */
+    color:rgb(255, 255, 255);
+    font-size:large;
+    border-radius:4px;
+    /* border:2px solid yellow; */
+}
+/* .middleContentText a:hover{
+    font-size:larger;
+} */
+.middleContentText span{
+    font-size:larger;
+    color:rgb(255, 219, 219);
+}
+.middleContentText span{
+    margin-left:7rem;
+}
+
+/* hotel search  */
+.hotelDetails{
+    display: flex;
+    justify-content: space-around;
+}
+.aboutHotels{
+    margin-left:2rem;
+    margin-top:5rem;
+    height:150px;
+    width:500px;
+    text-align:center;
+    color:white;
+    /* border:2px solid white; */
+}
+.aboutHotels p{
+    font-size: large;
+    font-family:cursive;
+}
+/* .aboutHotels */
+.bookHotel{
+    margin-top:3rem;
+    margin-left:2rem;
+    height:300px;
+    /* width:350px; */
+    color:white;
+    border-radius:32px;
+    padding:30px 40px;
+    background:transparent;
+    box-shadow: 0 0 10px rgb(243, 76, 10);
+}
+
+/* #sp{
+    margin-left:5rem;
+} */
+.bookHotel .time{
+    justify-content: space-evenly;
+}
+#checkinout{
+    margin:0px;
+}
+.location{
+    text-align:center;
+    margin-bottom: 25px;
+}
+.time{
+    /* padding:50px;
+    margin-bottom:123px; */
+    justify-items: auto;
+    margin-top:2rem;
+}
+.time1{
+    text-align:center;
+    margin-bottom: 2rem;
+}
+.time2{
+    text-align:center;
+}
+.time input{
+    color:rgb(53, 47, 47);
+    border-radius: 20px;
+    /* background: transparent; */
+}
+.region a{
+    text-decoration: none;
+    color:white;
+    font-size:large;
+    margin-right:4px;
+}
+.region a:hover{
+    font-size:larger;
+}
+.region{
+    margin-top:1.5rem;
+}
+.searchBox{
+    margin-top:4.5rem;
+    text-align: center;
+    border-radius:30px;
+    border:2px solid rgb(239, 51, 51);
+    height:30px;
+    width:100px;
+    margin-left:10vh;
+}
+.searchBox a {
+    text-align: right;
+    align-items: right;
+    color:white;
+    text-decoration:none;
+    font-size:x-large;
+}
+/* second page  */
+
+.secondPage{
+    display: flex;
+    /* background-color: blue; */
+    /* justify-content: center; */
+    justify-content: space-evenly;
+}
+.secondPage h1{
+    font-size:xx-large;
+    font-weight: 500;
+    margin-left:4rem;
+    font-style:unset;
+}
+.para{
+    height:500px;
+    width:800px;
+    margin-left:7rem;
+}
+.para>h5{
+    font-size:large;
+    font-family: cursive;
+}
+.images{
+    /* text-align: right; */
+    display:flex;
+}
+.images .image1{
+    background:url(Assets/smallImage1.jpg) no-repeat;
+    margin-top:3rem;
+    height:500px;
+    width:400px;
+    margin-left:15rem;
+    transform:skew(10deg);
+
+}
+.images .image2{
+    margin-left:5rem;
+    background:url(Assets/smallImage4.jpg) no-repeat;
+    height:500px;
+    width:400px;
+    transform:skew(10deg);
+}
+.learnButton{
+    margin-left:0rem;
+    margin-top:5rem;
+    height:50px;
+    width:150px;
+    text-align:center;
+}
+.learnButton>a{
+    padding:15px;
+    text-decoration: none;
+    color:rgb(255, 255, 255);
+    background-color: rgb(88, 39, 39);
+}
+.siteLink{
+    margin-top:3rem;
+    margin-left:5rem;
+
+}
+.siteLink>a{
+    color:white;
+    text-decoration: none;
+    font-size:x-large;
+}
