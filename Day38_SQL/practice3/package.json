@@ -1,0 +1,17 @@
+{
+  "name": "practice3",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Bittu Raj",
+  "license": "ISC",
+  "description": "The description is empty.",
+  "dependencies": {
+    "@faker-js/faker": "^9.8.0",
+    "express": "^5.1.0",
+    "mysql2": "^3.14.1",
+    "uuid": "^11.1.0"
+  }
+}
