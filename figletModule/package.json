@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "figlet": "^1.8.0"
+  },
+  "name": "pwd",
+  "version": "1.0.0",
+  "main": "cd ..",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Bittu Raj",
+  "license": "ISC",
+  "description": ""
+}
