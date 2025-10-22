@@ -1,0 +1,14 @@
+{
+  "name": "practice",
+  "version": "1.0.0",
+  "description": "This is a normal express program",
+  "main": "express.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Bittu Raj",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
